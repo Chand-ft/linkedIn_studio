@@ -1,0 +1,84 @@
+[
+    {
+        "id": "sd_gbntZFPQTxu2DCwv",
+        "type": "tab",
+        "createdDate": "2022-06-07T21:08:43.921Z",
+        "label": "mainFeed_2",
+        "disabled": false,
+        "info": "",
+        "functionSeq": 0,
+        "generateNext": true,
+        "serviceName": "mainFeed_2Component"
+    },
+    {
+        "id": "sd_yzeT89fGuZiaiBco",
+        "type": "OnInit",
+        "z": "sd_gbntZFPQTxu2DCwv",
+        "viewType": "common",
+        "nodeType": "start",
+        "name": "",
+        "functionName": "sd_yzeT89fGuZiaiBco",
+        "category": "Lifecycle Events",
+        "x": 30,
+        "y": 30,
+        "wires": [
+            [
+                "sd_G6R09tLkjfu87ZA9"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "mainFeed_2Component"
+    },
+    {
+        "id": "sd_G6R09tLkjfu87ZA9",
+        "type": "PageVariables",
+        "z": "sd_gbntZFPQTxu2DCwv",
+        "viewType": "pages",
+        "nodeType": "flow",
+        "name": "",
+        "inputs": 1,
+        "outputs": 1,
+        "operation": "set",
+        "globalVariables": [
+            {
+                "textIp": "likeIconsArray",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": ""
+                }
+            }
+        ],
+        "functionName": "sd_G6R09tLkjfu87ZA9",
+        "category": "Function",
+        "x": 180,
+        "y": 30,
+        "wires": [
+            [
+                "sd_exiPcog9WsUvKL2D"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_exiPcog9WsUvKL2D",
+        "type": "Script",
+        "z": "sd_gbntZFPQTxu2DCwv",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "page.likeIconsArray = [\n  {\n    name: \"thumb_up\",\n    text: \"Like\",\n  },\n  {\n    name: \"comment\",\n    text: \"Comment\",\n  },\n  {\n    name: \"reply\",\n    text: \"Share\",\n  },\n  {\n    name: \"send\",\n    text: \"Send\",\n  }\n];",
+        "functionName": "sd_exiPcog9WsUvKL2D",
+        "category": "Function",
+        "x": 280,
+        "y": 40,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    }
+]

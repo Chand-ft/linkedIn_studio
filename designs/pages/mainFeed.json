@@ -1,0 +1,84 @@
+[
+    {
+        "id": "sd_cAOdsziZDDIJJUUk",
+        "type": "tab",
+        "createdDate": "2022-06-07T20:58:45.855Z",
+        "label": "mainFeed",
+        "disabled": false,
+        "info": "",
+        "functionSeq": 0,
+        "generateNext": true,
+        "serviceName": "mainFeedComponent"
+    },
+    {
+        "id": "sd_KhWsb9w2w8EtpmXU",
+        "type": "OnInit",
+        "z": "sd_cAOdsziZDDIJJUUk",
+        "viewType": "common",
+        "nodeType": "start",
+        "name": "",
+        "functionName": "sd_KhWsb9w2w8EtpmXU",
+        "category": "Lifecycle Events",
+        "x": 30,
+        "y": 30,
+        "wires": [
+            [
+                "sd_MvTsrhHEXpf3V98g"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "mainFeedComponent"
+    },
+    {
+        "id": "sd_MvTsrhHEXpf3V98g",
+        "type": "PageVariables",
+        "z": "sd_cAOdsziZDDIJJUUk",
+        "viewType": "pages",
+        "nodeType": "flow",
+        "name": "",
+        "inputs": 1,
+        "outputs": 1,
+        "operation": "set",
+        "globalVariables": [
+            {
+                "textIp": "mainFeedIcons",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": ""
+                }
+            }
+        ],
+        "functionName": "sd_MvTsrhHEXpf3V98g",
+        "category": "Function",
+        "x": 165,
+        "y": 40,
+        "wires": [
+            [
+                "sd_2YJZNqUOPIPtrsv7"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_2YJZNqUOPIPtrsv7",
+        "type": "Script",
+        "z": "sd_cAOdsziZDDIJJUUk",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "page.mainFeedIcons = [\n  {\n    name: \"image\",\n    text: \"Photo\",\n    color: \"#378fe9\",\n  },\n  {\n    name: \"slideshow\",\n    text: \"Video\",\n    color: \"#5f9b41\",\n  },\n  {\n    name: \"today\",\n    text: \"Event\",\n    color: \"#c37d15\",\n  },\n  {\n    name: \"description\",\n    text: \"Write article\",\n    color: \"#e16745\",\n  }\n];\nconsole.log(\"working\", page.mainFeedIcons)",
+        "functionName": "sd_2YJZNqUOPIPtrsv7",
+        "category": "Function",
+        "x": 265,
+        "y": 40,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    }
+]

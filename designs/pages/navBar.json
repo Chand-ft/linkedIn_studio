@@ -1,0 +1,84 @@
+[
+    {
+        "id": "sd_FD8mybcoYCW7wP99",
+        "type": "tab",
+        "createdDate": "2022-06-07T08:25:57.953Z",
+        "label": "navBar",
+        "disabled": false,
+        "info": "",
+        "functionSeq": 0,
+        "generateNext": true,
+        "serviceName": "navBarComponent"
+    },
+    {
+        "id": "sd_k1RtO8ilo3Je2HUH",
+        "type": "OnInit",
+        "z": "sd_FD8mybcoYCW7wP99",
+        "viewType": "common",
+        "nodeType": "start",
+        "name": "",
+        "functionName": "sd_k1RtO8ilo3Je2HUH",
+        "category": "Lifecycle Events",
+        "x": 30,
+        "y": 30,
+        "wires": [
+            [
+                "sd_PUl1rRoEnweulRBA"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "navBarComponent"
+    },
+    {
+        "id": "sd_PUl1rRoEnweulRBA",
+        "type": "PageVariables",
+        "z": "sd_FD8mybcoYCW7wP99",
+        "viewType": "pages",
+        "nodeType": "flow",
+        "name": "",
+        "inputs": 1,
+        "outputs": 1,
+        "operation": "set",
+        "globalVariables": [
+            {
+                "textIp": "navIcons",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": ""
+                }
+            }
+        ],
+        "functionName": "sd_PUl1rRoEnweulRBA",
+        "category": "Function",
+        "x": 180,
+        "y": 30,
+        "wires": [
+            [
+                "sd_080MnmjlFuG17xC8"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_080MnmjlFuG17xC8",
+        "type": "Script",
+        "z": "sd_FD8mybcoYCW7wP99",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "page.navIcons = [\n    {\n        name: \"home\",\n        text: \"Home\",\n      },{\n        name: \"group\",\n        text: \"My network\",\n      },{\n        name: \"work\",\n        text: \"Jobs\",\n      },{\n        name: \"comment\",\n        text: \"Messaging\",\n      },{\n        name: \"notifications_none\",\n        text: \"Notifications\",\n      }\n]",
+        "functionName": "sd_080MnmjlFuG17xC8",
+        "category": "Function",
+        "x": 280,
+        "y": 40,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    }
+]

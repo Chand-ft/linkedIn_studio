@@ -1,0 +1,84 @@
+[
+    {
+        "id": "sd_vzwHlnGD6nd9erte",
+        "type": "tab",
+        "createdDate": "2022-06-07T23:02:13.440Z",
+        "label": "rightNavBar",
+        "disabled": false,
+        "info": "",
+        "functionSeq": 0,
+        "generateNext": true,
+        "serviceName": "rightNavBarComponent"
+    },
+    {
+        "id": "sd_hHC6dzkgBQraJrAI",
+        "type": "OnInit",
+        "z": "sd_vzwHlnGD6nd9erte",
+        "viewType": "common",
+        "nodeType": "start",
+        "name": "",
+        "functionName": "sd_hHC6dzkgBQraJrAI",
+        "category": "Lifecycle Events",
+        "x": 30,
+        "y": 30,
+        "wires": [
+            [
+                "sd_S7wDE0RFOyFZjA8v"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "rightNavBarComponent"
+    },
+    {
+        "id": "sd_S7wDE0RFOyFZjA8v",
+        "type": "PageVariables",
+        "z": "sd_vzwHlnGD6nd9erte",
+        "viewType": "pages",
+        "nodeType": "flow",
+        "name": "",
+        "inputs": 1,
+        "outputs": 1,
+        "operation": "set",
+        "globalVariables": [
+            {
+                "textIp": "rightNavBarArray",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": ""
+                }
+            }
+        ],
+        "functionName": "sd_S7wDE0RFOyFZjA8v",
+        "category": "Function",
+        "x": 180,
+        "y": 30,
+        "wires": [
+            [
+                "sd_aLelbhZbwmUOWzK8"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_aLelbhZbwmUOWzK8",
+        "type": "Script",
+        "z": "sd_vzwHlnGD6nd9erte",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "page.rightNavBarArray = [\n    {\n        name: \"Absa Group\",\n        text: \"Financial Services | Johannesburg\",\n        image: \"/Web/LinkedIn app images/Absa_logo.webp\"\n      },\n      {\n        name: \"JavaScript Developer\",\n        text: \"Software | Cape Town\",\n        image: \"/Web/LinkedIn app images/JavaScript_logo.svg.png\"\n      },\n      {\n        name: \"NBA\",\n        text: \"Sports broadcasting | USA\",\n        image: \"/Web/LinkedIn app images/nba_logo.jpeg\"\n      },\n];",
+        "functionName": "sd_aLelbhZbwmUOWzK8",
+        "category": "Function",
+        "x": 325,
+        "y": 40,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    }
+]

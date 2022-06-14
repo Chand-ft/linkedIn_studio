@@ -1,0 +1,18 @@
+<div fxLayout="row wrap" class="whiteBox" fxLayoutAlign="center center" [fxShow]="true">
+  <div fxLayout="column wrap" style="margin-top:10px; margin-bottom:10px;" fxFlex="90" fxLayoutAlign="start stretch" [fxShow]="true">
+    <div fxLayout="row wrap" fxLayoutAlign="space-between stretch" [fxShow]="true">
+      <h3 style="font-size: 16px;     margin-top: 0;">
+        Add to your feed</h3>
+      <mat-icon style="font-size: 20px;">info</mat-icon>
+    </div>
+    <div fxLayout="row wrap" style="margin-bottom:10px;" fxLayoutGap="10px" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let item of page.rightNavBarArray">
+      <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="{{item.image}}" style="border-radius: 50%; height: 48px;" width="48px"></div>
+      <div fxLayout="column wrap" class="greyColor" fxLayoutGap="5px" fxLayoutAlign="start stretch" [fxShow]="true">
+        <div style="margin:0; ">
+          <h4 style="margin: 0; color: black;">{{item.name}}</h4>
+          <p style="margin: 0;">{{item.text}}</p>
+        </div><button mat-button style="    border-style: solid;     border-radius: 20px;     width: 100px;     border-color: #666666;">+ Follow</button>
+      </div>
+    </div>
+  </div>
+</div>

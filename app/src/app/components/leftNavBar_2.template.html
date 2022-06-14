@@ -1,0 +1,32 @@
+<div fxLayout="row wrap" class="whiteBox" fxLayoutAlign="start stretch" [fxShow]="true">
+  <div fxLayout="column wrap" fxFlex="100%" fxLayoutAlign="start stretch" [fxShow]="true">
+    <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let item of page.textInLeftNav">
+      <div fxLayout="column wrap" fxLayoutAlign="space-between stretch" [fxShow]="true">
+        <div style="width:100%">
+          <a href style="margin: 0;font-weight: bold; font-size: smaller;">{{item.text}}</a> <br>
+        </div>
+      </div>
+      <div fxLayout="column wrap" fxLayoutAlign="start none" [fxShow]="true">
+        <mat-icon>add</mat-icon>
+      </div>
+    </div>
+    <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+      <div fxLayout="column wrap" fxFlex="100%" fxLayoutAlign="center center" [fxShow]="true">
+        <div style="width:100%;">
+          <hr>
+        </div>
+      </div>
+    </div>
+    <div fxLayout="row wrap" fxLayoutAlign="center stretch" [fxShow]="true">
+      <div fxLayout="column wrap" fxFlex="90%" fxLayoutAlign="start center" [fxShow]="true">
+        <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+          <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+            <div>
+              <p style="margin: 0;font-weight: bold; font-size: smaller;">Discover more</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

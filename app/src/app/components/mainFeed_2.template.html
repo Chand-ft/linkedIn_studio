@@ -1,0 +1,81 @@
+<div fxLayout="row wrap" class="greyColor whiteBox" fxLayoutAlign="center stretch" [fxShow]="true">
+  <div fxLayout="column wrap" fxFlex="93" fxLayoutGap="1em" fxLayoutAlign="start center" [fxShow]="true">
+    <div fxLayout="column wrap" style="width:100%" fxLayoutAlign="start stretch" [fxShow]="true">
+      <div fxLayout="row wrap" style="height: fit-content; padding-top:10px;" fxLayoutAlign="space-between stretch" [fxShow]="true">
+        <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+          <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/LinkedIn app images/Deloitte-logo.webp" style="height:48px; padding-right:10px;" width="48px">
+            <div>
+              <p style="margin: 0;font-weight: bold; font-size: 14px; color:black;">Deloitte</p>
+              <p style="margin: 0; font-size: smaller; font-size: 12px">10,304,543 Followers</p>
+              <p style="margin: 0; font-size: smaller; font-size: 12px">2h</p>
+            </div>
+          </div>
+        </div>
+        <div fxLayout="column wrap" fxLayoutAlign="start space-between" [fxShow]="true">
+          <mat-icon>more_horiz</mat-icon>
+        </div>
+      </div>
+    </div>
+    <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+      <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+        <div>
+          <p style="margin: 0; font-size: 14; color:black">
+            Some of the insights from the World Economic Forum&apos;s report on Growing Intra-Africa trade through digital Transformation include the reduction of non-trade barriers (some related to border and customs administration) could lead to trade gains in Africa of $20 billion per year, compared to the $3.6 billion that could be achieved by the elimination of tariffs.
+
+
+          </p>
+        </div>
+        <div fxLayout="row wrap" fxLayoutAlign="end end" [fxShow]="true">
+          <div>
+            <a style=" color:blue; margin: 0; font-size: 14;">See more...</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+      <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/LinkedIn app images/Deloitte-image.jpeg.webp" width="100%"></div>
+    </div>
+    <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="space-between stretch" [fxShow]="true">
+      <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+        <div fxLayout="row wrap" fxLayoutGap="10px" fxLayoutAlign="start stretch" [fxShow]="true">
+          <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+            <div>
+              <img src="https://static-exp1.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt" width="16" height="16">
+              <img src="https://static-exp1.licdn.com/sc/h/b1dl5jk88euc7e9ri50xy5qo8" width="16" height="16">
+              <img src="https://static-exp1.licdn.com/sc/h/cpho5fghnpme8epox8rdcds22" width="16" height="16">
+            </div>
+          </div>
+          <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+            <div>
+              <p style="margin: 0; font-size: 14px;">
+                tukiso mateka and 4,954 others</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+        <div>
+          <p style="margin: 0; font-size: 14px;">
+            1,623 comments</p>
+        </div>
+      </div>
+    </div>
+    <div fxLayout="row wrap" style="width:100%;" class="greyColor" fxLayoutAlign="start stretch" [fxShow]="true">
+      <div fxLayout="column wrap" fxFlex="100%" fxLayoutAlign="center center" [fxShow]="true">
+        <div style="width:100%;">
+          <hr>
+        </div>
+      </div>
+    </div>
+    <div fxLayout="row wrap" style="width:90%;   height: 40px;" class="greyColor" fxLayoutAlign="space-between stretch" [fxShow]="true">
+      <div fxLayout="column wrap" fxLayoutAlign="center start" [fxShow]="true" *ngFor="let item of page.likeIconsArray">
+        <div fxLayout="row wrap" fxLayoutAlign="center center" [fxShow]="true">
+          <mat-icon style="margin-right: 15px;     margin-top: -10px;">{{item.name}}</mat-icon>
+          <p fxHide.xs="true" style="    font-size: 18px;    font-weight: bold;">
+            {{item.text}}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

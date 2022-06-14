@@ -1,0 +1,84 @@
+[
+    {
+        "id": "sd_lvJ2rCOz81391PFv",
+        "type": "tab",
+        "createdDate": "2022-06-08T16:11:55.972Z",
+        "label": "leftNavBar_2",
+        "disabled": false,
+        "info": "",
+        "functionSeq": 0,
+        "generateNext": true,
+        "serviceName": "leftNavBar_2Component"
+    },
+    {
+        "id": "sd_dLujHIwhhGt9i3Jo",
+        "type": "OnInit",
+        "z": "sd_lvJ2rCOz81391PFv",
+        "viewType": "common",
+        "nodeType": "start",
+        "name": "",
+        "functionName": "sd_dLujHIwhhGt9i3Jo",
+        "category": "Lifecycle Events",
+        "x": 30,
+        "y": 30,
+        "wires": [
+            [
+                "sd_y3AC0Rqe2DOPTyzD"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "leftNavBar_2Component"
+    },
+    {
+        "id": "sd_y3AC0Rqe2DOPTyzD",
+        "type": "PageVariables",
+        "z": "sd_lvJ2rCOz81391PFv",
+        "viewType": "pages",
+        "nodeType": "flow",
+        "name": "",
+        "inputs": 1,
+        "outputs": 1,
+        "operation": "set",
+        "globalVariables": [
+            {
+                "textIp": "textInLeftNav",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": ""
+                }
+            }
+        ],
+        "functionName": "sd_y3AC0Rqe2DOPTyzD",
+        "category": "Function",
+        "x": 165,
+        "y": 40,
+        "wires": [
+            [
+                "sd_L1J3o7YOLjPVK6F4"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_L1J3o7YOLjPVK6F4",
+        "type": "Script",
+        "z": "sd_lvJ2rCOz81391PFv",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "page.textInLeftNav = [\n    {\n        text: \"Groups\"\n      },{\n        \n        text: \"Events\"\n      },{\n        \n        text: \"Followed Hashtags\"\n      }\n];",
+        "functionName": "sd_L1J3o7YOLjPVK6F4",
+        "category": "Function",
+        "x": 265,
+        "y": 40,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    }
+]

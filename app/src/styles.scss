@@ -1,0 +1,47 @@
+/*Importing default angular material css theme. */
+
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "nDefaults.scss";
+body{
+    background-color: #f3f2ef;
+    height: fit-content;
+}
+.navBarLogo{
+    height: 34px;
+     width: 34px; 
+}
+bh-navbar{
+    width: 100%;
+}
+.mat-icon {
+    color: #666666;
+}
+.whiteBox{
+    background-color: white;
+    border-style: groove;
+    border-radius: 10px;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+.greyColor{
+    color: #666666;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0%;
+}
+// .rightNavBarButton{
+//         border-style: solid;
+//     border-radius: 20px;
+//     width: 50%;
+//     border-color: #666666;
+// }
+
+// .rightNavBar2Links{
+// font-size: 12px;
+// margin-right: 10px;
+// :hover{
+//     color: blue;
+//     text-decoration: underline;
+// }
+// }
+

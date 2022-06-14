@@ -1,0 +1,13 @@
+{
+    "displayName": "LinkedIn",
+    "appName": "linkedin",
+    "description": "Recreating LinkedIn landing page",
+    "lastModified": "2022-06-07T08:22:59.463Z",
+    "imgSourcePath": "",
+    "version": "1.0.0",
+    "appType": "classic",
+    "templateName": "blank",
+    "createDate": "2022-06-07T08:22:58.515Z",
+    "analyticsId": "3c4b98e0-eb7c-c75d-65af-1d586afc690c",
+    "createdStudioVersion": "8.1.1"
+}

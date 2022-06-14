@@ -1,0 +1,84 @@
+[
+    {
+        "id": "sd_MHkgvJVR6NBuRafH",
+        "type": "tab",
+        "createdDate": "2022-06-10T17:17:01.220Z",
+        "label": "rightNavBar3",
+        "disabled": false,
+        "info": "",
+        "functionSeq": 0,
+        "generateNext": true,
+        "serviceName": "rightNavBar3Component"
+    },
+    {
+        "id": "sd_boIFULbdL3uuUsUG",
+        "type": "OnInit",
+        "z": "sd_MHkgvJVR6NBuRafH",
+        "viewType": "common",
+        "nodeType": "start",
+        "name": "",
+        "functionName": "sd_boIFULbdL3uuUsUG",
+        "category": "Lifecycle Events",
+        "x": 30,
+        "y": 30,
+        "wires": [
+            [
+                "sd_WQ0t2x2g5sKM0PnE"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "rightNavBar3Component"
+    },
+    {
+        "id": "sd_WQ0t2x2g5sKM0PnE",
+        "type": "PageVariables",
+        "z": "sd_MHkgvJVR6NBuRafH",
+        "viewType": "pages",
+        "nodeType": "flow",
+        "name": "",
+        "inputs": 1,
+        "outputs": 1,
+        "operation": "set",
+        "globalVariables": [
+            {
+                "textIp": "links",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": ""
+                }
+            }
+        ],
+        "functionName": "sd_WQ0t2x2g5sKM0PnE",
+        "category": "Function",
+        "x": 180,
+        "y": 30,
+        "wires": [
+            [
+                "sd_wDwX2b97odTsIyGq"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_wDwX2b97odTsIyGq",
+        "type": "Script",
+        "z": "sd_MHkgvJVR6NBuRafH",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "page.links = [\n    {\n        text: \"About\"\n      },{\n        \n        text: \"Accessibility\"\n      },{\n        \n        text: \"Help Center\"\n      },{\n        text: \"Privacy & Terms \"\n      },{\n        \n        text: \"Ad Choices\"\n      },{\n        \n        text: \"Advertising\"\n      },{\n        text: \"Business Services\"\n      },{\n        \n        text: \"Get the LinkedIn app\"\n      },{\n        \n        text: \"More\"\n      }\n];",
+        "functionName": "sd_wDwX2b97odTsIyGq",
+        "category": "Function",
+        "x": 300,
+        "y": 40,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    }
+]
