@@ -1,11 +1,8 @@
-<div fxLayout="row wrap" fxLayoutAlign="center stretch" [fxShow]="true">
-  <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true"></div>
-</div>
-<div fxLayout="row wrap" fxLayoutAlign="center stretch" [fxShow]="true">
-  <div fxLayout="column wrap" fxFlex="90" fxLayoutAlign="start stretch" [fxShow]="true">
-    <div fxLayout="row wrap" fxLayoutAlign="space-between center" [fxShow]="true">
-      <div fxLayout="column wrap" fxFlex="29%" fxLayoutAlign="start center" [fxShow]="true">
-        <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="space-between center" [fxShow]="true" fxFlex.sm="70px">
+<div fxLayout="row wrap" style="height: 53px background-color : red; " fxFlex="100" fxLayoutAlign="center stretch" [fxShow]="true">
+  <div fxLayout="column wrap" style="height: 53px" fxFlex="90" fxLayoutAlign="start stretch" [fxShow]="true">
+    <div fxLayout="row wrap" style="padding-top: 5px;" fxLayoutAlign="space-between stretch" [fxShow]="true">
+      <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+        <div fxLayout="row wrap" fxLayoutGap="15px" fxLayoutAlign="space-between center" [fxShow]="true" fxFlex.sm="70px">
           <div fxLayout="column wrap" fxLayoutAlign="center center" [fxShow]="true"><img imgSrc="/Web/LinkedIn app images/LinkedIn_logo.png.webp" class="navBarLogo"></div>
           <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" fxShow.sm="true" fxShow.xs="true" fxHide.md="true" fxHide.lg="true">
             <mat-icon>search</mat-icon>
@@ -23,18 +20,18 @@
           </div>
         </div>
       </div>
-      <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+      <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" fxHide.xs="true">
         <div fxLayout="row wrap" fxLayoutGap="20px" fxLayoutAlign="center space-between" [fxShow]="true">
           <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
             <div fxLayout="row wrap" class="greyColor" fxLayoutGap="30px" fxLayoutAlign="space-between center" [fxShow]="true">
               <div fxLayout="column wrap" fxLayoutAlign="end center" [fxShow]="true" *ngFor="let icon of page.navIcons">
                 <mat-icon class="mat-icon">{{icon.name}}</mat-icon>
-                <p>
+                <p fxHide.sm="true" fxHide.xs="true">
                   {{icon.text}}
                 </p>
               </div>
               <div fxLayout="column wrap" fxLayoutAlign="center center" [fxShow]="true"><img imgSrc="/Web/Facebook app Images/default-profile-picture.png" style="border-radius: 50%;" width="24px">
-                <p>
+                <p fxHide.sm="true" fxHide.xs="true">
                   Me</p>
               </div>
             </div>
@@ -43,13 +40,14 @@
             <div fxLayout="row wrap" style="margin-left:30px;" fxLayoutGap="30px" fxLayoutAlign="start stretch" [fxShow]="true">
               <div fxLayout="column wrap" class="greyColor" fxLayoutAlign="start stretch" [fxShow]="true">
                 <mat-icon class="mat-icon">apps</mat-icon>
-                <p>
+                <p fxHide.sm="true" fxHide.xs="true">
                   Work</p>
               </div>
-              <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
-                <p style="color: #935d0f;">
-                  Try Premium for <br> free
-                </p>
+              <div fxLayout="column wrap" fxLayoutAlign="center stretch" [fxShow]="true">
+                <div style="color: #935d0f;">
+                  <p style="text-align: center; text-decoration=underline">Try Premium for <br> free
+                  </p>
+                </div>
               </div>
             </div>
           </div>
