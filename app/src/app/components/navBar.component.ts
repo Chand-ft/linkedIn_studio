@@ -8,6 +8,8 @@ import {
   Input,
   Output,
   EventEmitter,
+  ViewChild,
+  ViewChildren,
 } from '@angular/core'; //_splitter_
 import { SDBaseService } from 'app/n-services/SDBaseService'; //_splitter_
 import { SDPageCommonService } from 'app/n-services/sd-page-common.service'; //_splitter_
@@ -22,6 +24,8 @@ import { __NEU_ServiceInvokerService__ } from 'app/n-services/service-caller.ser
   ],
 })
 export class navBarComponent {
+  @Output('callFromChildComponent')
+  public callFromChildComponent: any = new EventEmitter<any>();
   page: any = { dep: {} };
   constructor(
     private __page_injector__: Injector,
@@ -60,12 +64,26 @@ export class navBarComponent {
     }
   }
 
+  hideShowSidenav(...others) {
+    try {
+      var bh: any = this.__page_injector__
+        .get(SDPageCommonService)
+        .constructFlowObject(this);
+      bh.input = {};
+      bh.local = {};
+      bh = this.sd_OLfbRFhvzdSPPAXP(bh);
+      //appendnew_next_hideShowSidenav
+    } catch (e) {
+      return this.errorHandler(bh, e, 'sd_RiIEQJspVzrpvLi2');
+    }
+  }
+
   //appendnew_flow_navBarComponent_start
 
   sd_PUl1rRoEnweulRBA(bh) {
     try {
-      this.page.navIcons = undefined;
-      bh = this.sd_080MnmjlFuG17xC8(bh);
+      this.page.icons = [];
+      bh = this.addNavbarIconsx(bh);
       //appendnew_next_sd_PUl1rRoEnweulRBA
       return bh;
     } catch (e) {
@@ -73,7 +91,7 @@ export class navBarComponent {
     }
   }
 
-  sd_080MnmjlFuG17xC8(bh) {
+  addNavbarIconsx(bh) {
     try {
       const page = this.page;
       page.navIcons = [
@@ -98,10 +116,20 @@ export class navBarComponent {
           text: 'Notifications',
         },
       ];
-      //appendnew_next_sd_080MnmjlFuG17xC8
+      //appendnew_next_addNavbarIconsx
       return bh;
     } catch (e) {
       return this.errorHandler(bh, e, 'sd_080MnmjlFuG17xC8');
+    }
+  }
+
+  sd_OLfbRFhvzdSPPAXP(bh) {
+    try {
+      bh.pageOutput.callFromChildComponent.emit();
+      //appendnew_next_sd_OLfbRFhvzdSPPAXP
+      return bh;
+    } catch (e) {
+      return this.errorHandler(bh, e, 'sd_OLfbRFhvzdSPPAXP');
     }
   }
 

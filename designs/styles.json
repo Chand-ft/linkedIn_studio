@@ -1,8 +1,11 @@
 {
     "classes": [
+        "rowForNavBar",
         "navBarLogo",
         "mat-icon",
         "whiteBox",
-        "greyColor"
+        "greyColor",
+        "sidenav",
+        "margin-top53"
     ]
 }

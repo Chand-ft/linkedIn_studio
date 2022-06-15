@@ -1,7 +1,6 @@
 {
     "f81790f6-1468-77d0-73e1-287f97a53440": {
         "paletteKey": "FlexLayoutRow",
-        "isCommented": "false",
         "commentid": null,
         "designerReference": [
             {
@@ -13,7 +12,7 @@
             },
             {
                 "_key": "style",
-                "_value": "height: 53px background-color : red; ",
+                "_value": "",
                 "_type": "kv",
                 "_attrDef": "p"
             },
@@ -63,7 +62,6 @@
         "6b5df67f-d71d-025e-5300-055410c820a6": {
             "paletteKey": "FlexLayoutCol",
             "parentEditorKey": "f81790f6-1468-77d0-73e1-287f97a53440",
-            "isCommented": "false",
             "commentid": null,
             "designerReference": [
                 {
@@ -125,7 +123,6 @@
             "f4ea3a8e-7521-6025-0cd2-38e5e1645fdb": {
                 "paletteKey": "FlexLayoutRow",
                 "parentEditorKey": "6b5df67f-d71d-025e-5300-055410c820a6",
-                "isCommented": "false",
                 "commentid": null,
                 "designerReference": [
                     {
@@ -137,7 +134,7 @@
                     },
                     {
                         "_key": "style",
-                        "_value": "padding-top: 5px;",
+                        "_value": "padding-top: 5px; ",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
@@ -187,7 +184,6 @@
                 "e3515f43-2ce0-33fa-a835-895f4334dc00": {
                     "paletteKey": "FlexLayoutCol",
                     "parentEditorKey": "f4ea3a8e-7521-6025-0cd2-38e5e1645fdb",
-                    "isCommented": "false",
                     "commentid": null,
                     "designerReference": [
                         {
@@ -249,7 +245,6 @@
                     "8926f0ad-cb85-02b5-7aa9-6e0395a3c709": {
                         "paletteKey": "FlexLayoutRow",
                         "parentEditorKey": "e3515f43-2ce0-33fa-a835-895f4334dc00",
-                        "isCommented": "false",
                         "commentid": null,
                         "designerReference": [
                             {
@@ -306,18 +301,11 @@
                                 "_value": "true",
                                 "_type": "kv",
                                 "_attrDef": "p"
-                            },
-                            {
-                                "_key": "fxFlex.sm",
-                                "_value": "70px",
-                                "_type": "kv",
-                                "_attrDef": "c"
                             }
                         ],
                         "fd1a8df2-b208-21a5-aa64-8a74ab5bb102": {
                             "paletteKey": "FlexLayoutCol",
                             "parentEditorKey": "8926f0ad-cb85-02b5-7aa9-6e0395a3c709",
-                            "isCommented": "false",
                             "commentid": null,
                             "designerReference": [
                                 {
@@ -379,7 +367,6 @@
                             "bf3df05e-5620-7269-fd9a-bf9a75806e6e": {
                                 "paletteKey": "NG-image",
                                 "parentEditorKey": "fd1a8df2-b208-21a5-aa64-8a74ab5bb102",
-                                "isCommented": "false",
                                 "commentid": null,
                                 "designerReference": [
                                     {
@@ -451,7 +438,6 @@
                         "c1e3aa09-1042-e9c5-2a5e-7f335ba9de27": {
                             "paletteKey": "FlexLayoutCol",
                             "parentEditorKey": "8926f0ad-cb85-02b5-7aa9-6e0395a3c709",
-                            "isCommented": "false",
                             "commentid": null,
                             "designerReference": [
                                 {
@@ -537,7 +523,6 @@
                             "c96caf17-a981-8ce2-f7a8-53fb1a92a06a": {
                                 "paletteKey": "NG-icon",
                                 "parentEditorKey": "c1e3aa09-1042-e9c5-2a5e-7f335ba9de27",
-                                "isCommented": "false",
                                 "commentid": null,
                                 "designerReference": [
                                     {
@@ -577,7 +562,6 @@
                         "3b093dba-cec1-5f20-f916-0ef97fbcf631": {
                             "paletteKey": "FlexLayoutCol",
                             "parentEditorKey": "8926f0ad-cb85-02b5-7aa9-6e0395a3c709",
-                            "isCommented": "false",
                             "commentid": null,
                             "designerReference": [
                                 {
@@ -646,7 +630,6 @@
                                 "paletteKey": "Html5",
                                 "parentEditorKey": "3b093dba-cec1-5f20-f916-0ef97fbcf631",
                                 "isAdvancedComponent": true,
-                                "isCommented": "false",
                                 "commentid": null,
                                 "designerReference": [
                                     {
@@ -834,7 +817,6 @@
                                     "paletteKey": "html-editor",
                                     "parentEditorKey": "ee3e5b9e-a1c9-4c1d-dde0-7aea1df56471",
                                     "isAdvancedChildComponent": true,
-                                    "isCommented": "false",
                                     "commentid": null,
                                     "designerReference": [
                                         {
@@ -864,7 +846,6 @@
                 "b92e21bb-768e-51ea-7958-43eb4f9caa57": {
                     "paletteKey": "FlexLayoutCol",
                     "parentEditorKey": "f4ea3a8e-7521-6025-0cd2-38e5e1645fdb",
-                    "isCommented": "false",
                     "commentid": null,
                     "designerReference": [
                         {
@@ -932,7 +913,6 @@
                     "e24864ba-bae8-a338-344f-7906c020472e": {
                         "paletteKey": "FlexLayoutRow",
                         "parentEditorKey": "b92e21bb-768e-51ea-7958-43eb4f9caa57",
-                        "isCommented": "false",
                         "commentid": null,
                         "designerReference": [
                             {
@@ -994,7 +974,6 @@
                         "1e4fad4e-949c-3c05-8f5f-fe561f0be0ae": {
                             "paletteKey": "FlexLayoutCol",
                             "parentEditorKey": "e24864ba-bae8-a338-344f-7906c020472e",
-                            "isCommented": "false",
                             "commentid": null,
                             "designerReference": [
                                 {
@@ -1056,7 +1035,6 @@
                             "057fb738-6e6d-8a45-56bd-eb49c4ed625d": {
                                 "paletteKey": "FlexLayoutRow",
                                 "parentEditorKey": "1e4fad4e-949c-3c05-8f5f-fe561f0be0ae",
-                                "isCommented": "false",
                                 "commentid": null,
                                 "designerReference": [
                                     {
@@ -1120,7 +1098,6 @@
                                 "3ef26b87-95c0-3a27-3441-1d1d50de0867": {
                                     "paletteKey": "FlexLayoutCol",
                                     "parentEditorKey": "057fb738-6e6d-8a45-56bd-eb49c4ed625d",
-                                    "isCommented": "false",
                                     "commentid": null,
                                     "designerReference": [
                                         {
@@ -1188,7 +1165,6 @@
                                     "c4efbe6b-0b6f-5763-edb5-2614e1d27ba5": {
                                         "paletteKey": "NG-icon",
                                         "parentEditorKey": "3ef26b87-95c0-3a27-3441-1d1d50de0867",
-                                        "isCommented": "false",
                                         "commentid": null,
                                         "designerReference": [
                                             {
@@ -1230,7 +1206,6 @@
                                         "paletteKey": "Html5",
                                         "parentEditorKey": "3ef26b87-95c0-3a27-3441-1d1d50de0867",
                                         "isAdvancedComponent": true,
-                                        "isCommented": "false",
                                         "commentid": null,
                                         "designerReference": [
                                             {
@@ -1430,7 +1405,6 @@
                                             "paletteKey": "html-editor",
                                             "parentEditorKey": "6425f0db-4832-38f4-7efd-a8eb8c4d27c3",
                                             "isAdvancedChildComponent": true,
-                                            "isCommented": "false",
                                             "commentid": null,
                                             "designerReference": [
                                                 {
@@ -1458,7 +1432,6 @@
                                 "ddb13ee3-3456-ac77-5e94-347f025c3d1f": {
                                     "paletteKey": "FlexLayoutCol",
                                     "parentEditorKey": "057fb738-6e6d-8a45-56bd-eb49c4ed625d",
-                                    "isCommented": "false",
                                     "commentid": null,
                                     "designerReference": [
                                         {
@@ -1520,7 +1493,6 @@
                                     "c9880251-f84e-d787-0ef4-6aba628e0426": {
                                         "paletteKey": "NG-image",
                                         "parentEditorKey": "ddb13ee3-3456-ac77-5e94-347f025c3d1f",
-                                        "isCommented": "false",
                                         "commentid": null,
                                         "designerReference": [
                                             {
@@ -1590,7 +1562,6 @@
                                         "paletteKey": "Html5",
                                         "parentEditorKey": "ddb13ee3-3456-ac77-5e94-347f025c3d1f",
                                         "isAdvancedComponent": true,
-                                        "isCommented": "false",
                                         "commentid": null,
                                         "designerReference": [
                                             {
@@ -1790,7 +1761,6 @@
                                             "paletteKey": "html-editor",
                                             "parentEditorKey": "acde9fbd-33db-28dd-7e2b-767064014c1d",
                                             "isAdvancedChildComponent": true,
-                                            "isCommented": "false",
                                             "commentid": null,
                                             "designerReference": [
                                                 {
@@ -1820,7 +1790,6 @@
                         "5d529bbd-8801-d22f-6a69-0fba9c9dba22": {
                             "paletteKey": "FlexLayoutCol",
                             "parentEditorKey": "e24864ba-bae8-a338-344f-7906c020472e",
-                            "isCommented": "false",
                             "commentid": null,
                             "designerReference": [
                                 {
@@ -1882,7 +1851,6 @@
                             "ce4d280b-fbfc-aa7c-f207-d5fe0b2d4aef": {
                                 "paletteKey": "FlexLayoutRow",
                                 "parentEditorKey": "5d529bbd-8801-d22f-6a69-0fba9c9dba22",
-                                "isCommented": "false",
                                 "commentid": null,
                                 "designerReference": [
                                     {
@@ -1944,7 +1912,6 @@
                                 "551deccb-00a7-48a2-5d53-7c45ea38bef2": {
                                     "paletteKey": "FlexLayoutCol",
                                     "parentEditorKey": "ce4d280b-fbfc-aa7c-f207-d5fe0b2d4aef",
-                                    "isCommented": "false",
                                     "commentid": null,
                                     "designerReference": [
                                         {
@@ -2008,7 +1975,6 @@
                                     "7850ea11-e362-f74e-21b6-abad681e87e6": {
                                         "paletteKey": "NG-icon",
                                         "parentEditorKey": "551deccb-00a7-48a2-5d53-7c45ea38bef2",
-                                        "isCommented": "false",
                                         "commentid": null,
                                         "designerReference": [
                                             {
@@ -2050,7 +2016,6 @@
                                         "paletteKey": "Html5",
                                         "parentEditorKey": "551deccb-00a7-48a2-5d53-7c45ea38bef2",
                                         "isAdvancedComponent": true,
-                                        "isCommented": "false",
                                         "commentid": null,
                                         "designerReference": [
                                             {
@@ -2250,7 +2215,6 @@
                                             "paletteKey": "html-editor",
                                             "parentEditorKey": "44c12c73-aa12-81f4-4d1f-f7c78ad1b8a4",
                                             "isAdvancedChildComponent": true,
-                                            "isCommented": "false",
                                             "commentid": null,
                                             "designerReference": [
                                                 {
@@ -2278,7 +2242,6 @@
                                 "4035ae8b-3bde-f07e-1515-0e649cde1e42": {
                                     "paletteKey": "FlexLayoutCol",
                                     "parentEditorKey": "ce4d280b-fbfc-aa7c-f207-d5fe0b2d4aef",
-                                    "isCommented": "false",
                                     "commentid": null,
                                     "designerReference": [
                                         {
@@ -2341,7 +2304,6 @@
                                         "paletteKey": "Html5",
                                         "parentEditorKey": "4035ae8b-3bde-f07e-1515-0e649cde1e42",
                                         "isAdvancedComponent": true,
-                                        "isCommented": "false",
                                         "commentid": null,
                                         "designerReference": [
                                             {
@@ -2529,7 +2491,6 @@
                                             "paletteKey": "html-editor",
                                             "parentEditorKey": "cef6c310-3606-57af-33ab-6a1096344c69",
                                             "isAdvancedChildComponent": true,
-                                            "isCommented": "false",
                                             "commentid": null,
                                             "designerReference": [
                                                 {
@@ -2555,6 +2516,194 @@
                                     }
                                 }
                             }
+                        }
+                    }
+                },
+                "93e73fde-6a91-1a3c-c6e8-5edb28b73111": {
+                    "paletteKey": "FlexLayoutCol",
+                    "parentEditorKey": "f4ea3a8e-7521-6025-0cd2-38e5e1645fdb",
+                    "isCommented": "false",
+                    "commentid": null,
+                    "designerReference": [
+                        {
+                            "_key": "componentLabel",
+                            "_value": "menu icon",
+                            "_type": "kv",
+                            "_attrDef": "p",
+                            "_useAsLabel": true
+                        },
+                        {
+                            "_key": "style",
+                            "_value": "margin-top:5px;     padding-right: 12px;",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "class",
+                            "_value": "",
+                            "_type": "dav",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "fxFlex",
+                            "_value": "",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "fxLayoutGap",
+                            "_value": "",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "wrap",
+                            "_value": "wrap",
+                            "_type": "a",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "layoutAlign",
+                            "_value": "start",
+                            "_type": "a",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "pLayoutAlign",
+                            "_value": "stretch",
+                            "_type": "a",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "[fxShow]",
+                            "_value": "false",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "fxShow.xs",
+                            "_value": "true",
+                            "_type": "kv",
+                            "_attrDef": "c"
+                        }
+                    ],
+                    "e7f18e87-49fe-d2cc-0f97-b7b5dccd5d78": {
+                        "paletteKey": "FlexLayoutCol",
+                        "parentEditorKey": "93e73fde-6a91-1a3c-c6e8-5edb28b73111",
+                        "isCommented": "false",
+                        "commentid": null,
+                        "designerReference": [
+                            {
+                                "_key": "componentLabel",
+                                "_value": "Column",
+                                "_type": "kv",
+                                "_attrDef": "p",
+                                "_useAsLabel": true
+                            },
+                            {
+                                "_key": "style",
+                                "_value": "",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "class",
+                                "_value": [
+                                    "greyColor"
+                                ],
+                                "_type": "dav",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "fxFlex",
+                                "_value": "",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "fxLayoutGap",
+                                "_value": "",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "wrap",
+                                "_value": "wrap",
+                                "_type": "a",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "layoutAlign",
+                                "_value": "start",
+                                "_type": "a",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "pLayoutAlign",
+                                "_value": "stretch",
+                                "_type": "a",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "[fxShow]",
+                                "_value": "true",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            }
+                        ],
+                        "e42bbb56-9ec1-57ab-f716-5b4ff48b2e2e": {
+                            "paletteKey": "NG-icon",
+                            "parentEditorKey": "e7f18e87-49fe-d2cc-0f97-b7b5dccd5d78",
+                            "isCommented": "false",
+                            "commentid": null,
+                            "designerReference": [
+                                {
+                                    "_key": "style",
+                                    "_value": "font-size:35px;",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "class",
+                                    "_value": [
+                                        "mat-icon"
+                                    ],
+                                    "_type": "dav",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "IconName",
+                                    "_value": "menu",
+                                    "_type": "a",
+                                    "_attrDef": "p",
+                                    "_useAsLabel": true
+                                },
+                                {
+                                    "_key": "[inline]",
+                                    "_value": "",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "color",
+                                    "_value": "",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "(click)",
+                                    "_value": "hideShowSidenav()",
+                                    "_type": "kv",
+                                    "_attrDef": "c",
+                                    "objValue": {
+                                        "nodeID": "sd_RiIEQJspVzrpvLi2",
+                                        "functionName": "hideShowSidenav",
+                                        "activeTree": "pages",
+                                        "z": "sd_FD8mybcoYCW7wP99",
+                                        "input": []
+                                    }
+                                }
+                            ]
                         }
                     }
                 }

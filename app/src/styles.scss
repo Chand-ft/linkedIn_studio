@@ -6,6 +6,8 @@ body{
     background-color: #f3f2ef;
     height: fit-content;
 }
+
+ .rowForNavBar{ background-color: white;  width:100%; height:52px; position:fixed;}
 .navBarLogo{
     height: 34px;
      width: 34px; 
@@ -29,6 +31,20 @@ bh-navbar{
 p, h1, h2, h3, h4, h5, h6 {
     margin: 0%;
 }
+
+.sidenav {
+    height: calc(100% - 60px);
+    padding-top: 1em;
+}
+// mat-sidenav-container {margin-top: 53px;}
+.margin-top53 {
+    margin-top: 53px;
+}
+
+
+
+
+
 // .rightNavBarButton{
 //         border-style: solid;
 //     border-radius: 20px;

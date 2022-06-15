@@ -1,8 +1,8 @@
-<div fxLayout="row wrap" style="height: 53px background-color : red; " fxFlex="100" fxLayoutAlign="center stretch" [fxShow]="true">
+<div fxLayout="row wrap" fxFlex="100" fxLayoutAlign="center stretch" [fxShow]="true">
   <div fxLayout="column wrap" style="height: 53px" fxFlex="90" fxLayoutAlign="start stretch" [fxShow]="true">
-    <div fxLayout="row wrap" style="padding-top: 5px;" fxLayoutAlign="space-between stretch" [fxShow]="true">
+    <div fxLayout="row wrap" style="padding-top: 5px; " fxLayoutAlign="space-between stretch" [fxShow]="true">
       <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
-        <div fxLayout="row wrap" fxLayoutGap="15px" fxLayoutAlign="space-between center" [fxShow]="true" fxFlex.sm="70px">
+        <div fxLayout="row wrap" fxLayoutGap="15px" fxLayoutAlign="space-between center" [fxShow]="true">
           <div fxLayout="column wrap" fxLayoutAlign="center center" [fxShow]="true"><img imgSrc="/Web/LinkedIn app images/LinkedIn_logo.png.webp" class="navBarLogo"></div>
           <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" fxShow.sm="true" fxShow.xs="true" fxHide.md="true" fxHide.lg="true">
             <mat-icon>search</mat-icon>
@@ -51,6 +51,11 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div fxLayout="column wrap" style="margin-top:5px;     padding-right: 12px;" fxLayoutAlign="start stretch" [fxShow]="false" fxShow.xs="true">
+        <div fxLayout="column wrap" class="greyColor" fxLayoutAlign="start stretch" [fxShow]="true">
+          <mat-icon style="font-size:35px;" class="mat-icon" (click)="hideShowSidenav()">menu</mat-icon>
         </div>
       </div>
     </div>

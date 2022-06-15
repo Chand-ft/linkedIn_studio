@@ -40,13 +40,116 @@
         "inputs": 1,
         "outputs": 1,
         "operation": "set",
-        "globalVariables": [],
+        "globalVariables": [
+            {
+                "textIp": "icons",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": "[]"
+                }
+            }
+        ],
         "functionName": "sd_CYr8A7hvGL2GLQUW",
         "category": "Function",
         "x": 180,
         "y": 30,
         "wires": [
+            [
+                "sd_u5WIou3LlstpSdIX"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_u5WIou3LlstpSdIX",
+        "type": "Script",
+        "z": "sd_ohvc0QRkYl1MUjVz",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "addNavbarIconsx",
+        "script": "page.icons=[\n    {\n        icon:'home' ,\n        name:'Home'\n    },\n    {\n        icon:'people',\n        name:'My Network'\n    },\n    {\n        icon:'work',\n        name:'Job'\n    },\n    {\n        icon:'message',\n        name:'Messaging'\n    },\n     {\n        icon:'notifications',\n        name:'Notifications'\n    }\n   \n]",
+        "functionName": "addNavbarIconsx",
+        "category": "Function",
+        "x": 325,
+        "y": 40,
+        "wires": [
             []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_yn3lcOkqpu2YIYw8",
+        "type": "PageStart",
+        "z": "sd_ohvc0QRkYl1MUjVz",
+        "viewType": "pages",
+        "nodeType": "start",
+        "name": "toggle sidNav",
+        "outputs": 1,
+        "inputVariables": [],
+        "localVariables": [],
+        "flow_type": "sync",
+        "functionName": "toggleSidNav",
+        "category": "General",
+        "x": 60,
+        "y": 180,
+        "wires": [
+            [
+                "sd_Wfm1cGeuTlEEa0xC"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "homeComponent"
+    },
+    {
+        "id": "sd_jDpGqYilG83U7doP",
+        "type": "Script",
+        "z": "sd_ohvc0QRkYl1MUjVz",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "bh.pageViews.sidenav.toggle();\n",
+        "functionName": "sd_jDpGqYilG83U7doP",
+        "category": "Function",
+        "x": 340,
+        "y": 200,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_Wfm1cGeuTlEEa0xC",
+        "type": "ViewPicker",
+        "z": "sd_ohvc0QRkYl1MUjVz",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "outputs": 1,
+        "childViewVariables": [
+            {
+                "key": {
+                    "type": "str",
+                    "value": "sidenav"
+                },
+                "defaultValue": "",
+                "isViewChildren": false
+            }
+        ],
+        "functionName": "sd_Wfm1cGeuTlEEa0xC",
+        "category": "Function",
+        "x": 180,
+        "y": 200,
+        "wires": [
+            [
+                "sd_jDpGqYilG83U7doP"
+            ]
         ],
         "__n_excludedFromValidation__": {},
         "generateNext": false,

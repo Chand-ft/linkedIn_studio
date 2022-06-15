@@ -1,5 +1,38 @@
 <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" fxFill>
-  <div fxLayout="row wrap" style="  background-color: white;  height:52px;" fxLayoutAlign="start stretch" [fxShow]="true">
-    <bh-navBar></bh-navBar>
+  <div fxLayout="row wrap" class="rowForNavBar" fxLayoutAlign="center stretch" [fxShow]="true">
+    <bh-navBar (callFromChildComponent)="toggleSidNav()"></bh-navBar>
   </div>
+  <mat-sidenav-container class="sidenav">
+    <mat-sidenav #sidenav [mode]="&apos;over&apos;" [position]="&apos;start&apos;" [opened]="true">
+      <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let icon of page.icons">
+        <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+          <mat-icon>{{icon.icon}}</mat-icon>
+        </div>
+        <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true"><label>
+            {{icon.name}}</label></div>
+      </div>
+    </mat-sidenav>
+    <div fxLayout="row wrap" style="margin-top:50px;" fxLayoutAlign="center start" [fxShow]="true">
+      <div fxLayout="column wrap" style="margin-top: 25px " fxFlex="90" fxLayoutAlign="start stretch" [fxShow]="true">
+        <div fxLayout="row wrap" fxLayoutAlign="space-between start" [fxShow]="true">
+          <div fxLayout="column wrap" fxFlex="21%" fxLayoutAlign="start stretch" [fxShow]="true" fxFlex.sm="28%" fxHide.xs="true">
+            <bh-leftNavBar></bh-leftNavBar>
+            <bh-leftNavBar_2></bh-leftNavBar_2>
+          </div>
+          <div fxLayout="column wrap" fxFlex="46%" fxLayoutAlign="start stretch" [fxShow]="true" fxFlex.sm="70%" fxFlex.xs="100%">
+            <bh-leftNavBar fxShow.xs="true" fxHide.sm="true" fxHide.md="true" fxHide.lg="true"></bh-leftNavBar>
+            <bh-leftNavBar_2 fxShow.xs="true" fxHide.sm="true" fxHide.md="true" fxHide.lg="true"></bh-leftNavBar_2>
+            <bh-mainFeed></bh-mainFeed>
+            <bh-mainFeed_2></bh-mainFeed_2>
+            <bh-mainFeed_2></bh-mainFeed_2>
+            <bh-mainFeed_2></bh-mainFeed_2>
+            <bh-rightNavBar fxShow.lt-md="true" fxShow="false"></bh-rightNavBar>
+          </div>
+          <div fxLayout="column wrap" fxFlex="30% " fxLayoutAlign="start stretch" [fxShow]="true" fxShow.lt-md="false">
+            <bh-rightNavBar></bh-rightNavBar>
+          </div>
+        </div>
+      </div>
+    </div>
+  </mat-sidenav-container>
 </div>

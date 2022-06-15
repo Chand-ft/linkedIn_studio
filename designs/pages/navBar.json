@@ -17,6 +17,17 @@
         "viewType": "common",
         "nodeType": "start",
         "name": "",
+        "inputVariables": [],
+        "localVariables": [],
+        "outputVariables": [
+            {
+                "key": "callFromChildComponent",
+                "defaultValue": {
+                    "type": "any",
+                    "value": null
+                }
+            }
+        ],
         "functionName": "sd_k1RtO8ilo3Je2HUH",
         "category": "Lifecycle Events",
         "x": 30,
@@ -42,10 +53,10 @@
         "operation": "set",
         "globalVariables": [
             {
-                "textIp": "navIcons",
+                "textIp": "icons",
                 "typedIpValue": {
                     "type": "literal",
-                    "value": ""
+                    "value": "[]"
                 }
             }
         ],
@@ -68,15 +79,71 @@
         "z": "sd_FD8mybcoYCW7wP99",
         "viewType": "common",
         "nodeType": "flow",
-        "name": "",
+        "name": "addNavbarIconsx",
         "script": "page.navIcons = [\n    {\n        name: \"home\",\n        text: \"Home\",\n      },{\n        name: \"group\",\n        text: \"My network\",\n      },{\n        name: \"work\",\n        text: \"Jobs\",\n      },{\n        name: \"comment\",\n        text: \"Messaging\",\n      },{\n        name: \"notifications_none\",\n        text: \"Notifications\",\n      }\n]",
-        "functionName": "sd_080MnmjlFuG17xC8",
+        "functionName": "addNavbarIconsx",
         "category": "Function",
         "x": 280,
         "y": 40,
         "wires": [
             []
         ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_RiIEQJspVzrpvLi2",
+        "type": "PageStart",
+        "z": "sd_FD8mybcoYCW7wP99",
+        "viewType": "pages",
+        "nodeType": "start",
+        "name": "hideShowSidenav",
+        "outputs": 1,
+        "inputVariables": [],
+        "localVariables": [],
+        "flow_type": "sync",
+        "functionName": "hideShowSidenav",
+        "category": "General",
+        "x": 60,
+        "y": 200,
+        "wires": [
+            [
+                "sd_OLfbRFhvzdSPPAXP"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "navBarComponent"
+    },
+    {
+        "id": "sd_OLfbRFhvzdSPPAXP",
+        "type": "Output",
+        "z": "sd_FD8mybcoYCW7wP99",
+        "viewType": "pages",
+        "nodeType": "flow",
+        "name": "",
+        "eventName": "bh.pageOutput.callFromChildComponent",
+        "data": "bh",
+        "functionName": "sd_OLfbRFhvzdSPPAXP",
+        "category": "Function",
+        "x": 200,
+        "y": 220,
+        "wires": [
+            []
+        ],
+        "__ssdTypeInputs__": {
+            "eventName": {
+                "type": "bh.pageOutput",
+                "value": "callFromChildComponent",
+                "constant": false
+            },
+            "data": {
+                "type": "bh",
+                "value": "",
+                "constant": false
+            }
+        },
         "__n_excludedFromValidation__": {},
         "generateNext": false,
         "generated": true

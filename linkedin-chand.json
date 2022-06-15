@@ -1,13 +1,15 @@
 {
-    "displayName": "LinkedIn",
-    "appName": "linkedin",
+    "displayName": "LinkedIn-Chand",
+    "appName": "linkedin-chand",
     "description": "Recreating LinkedIn landing page",
-    "lastModified": "2022-06-07T08:22:59.463Z",
+    "lastModified": "2022-06-14T13:52:08.226Z",
     "imgSourcePath": "",
     "version": "1.0.0",
     "appType": "classic",
     "templateName": "blank",
     "createDate": "2022-06-07T08:22:58.515Z",
     "analyticsId": "3c4b98e0-eb7c-c75d-65af-1d586afc690c",
-    "createdStudioVersion": "8.1.1"
+    "createdStudioVersion": "8.1.1",
+    "isCorrupt": false,
+    "oldAppName": "linkedin"
 }
