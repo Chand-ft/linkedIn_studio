@@ -2,8 +2,8 @@
   <div fxLayout="row wrap" class="rowForNavBar" fxLayoutAlign="center stretch" [fxShow]="true">
     <bh-navBar (callFromChildComponent)="toggleSidNav()"></bh-navBar>
   </div>
-  <mat-sidenav-container class="sidenav">
-    <mat-sidenav #sidenav [mode]="&apos;over&apos;" [position]="&apos;start&apos;" [opened]="true">
+  <mat-sidenav-container class="sidenav" autosize="false">
+    <mat-sidenav #sidenav style="position:fixed; " [mode]="&apos;side&apos;" [position]="&apos;end&apos;" [opened]="false" autoFocus="false">
       <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let icon of page.icons">
         <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
           <mat-icon>{{icon.icon}}</mat-icon>

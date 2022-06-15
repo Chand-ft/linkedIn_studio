@@ -1055,7 +1055,7 @@
                 },
                 {
                     "_key": "autosize",
-                    "_value": "",
+                    "_value": "false",
                     "_type": "kv",
                     "_attrDef": "p"
                 },
@@ -1080,7 +1080,7 @@
                 "designerReference": [
                     {
                         "_key": "style",
-                        "_value": "",
+                        "_value": "position:fixed; ",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
@@ -1099,19 +1099,19 @@
                     },
                     {
                         "_key": "[sidenavMode]",
-                        "_value": "'over'",
+                        "_value": "'side'",
                         "_type": "a",
                         "_attrDef": "p"
                     },
                     {
                         "_key": "[opened]",
-                        "_value": "true",
+                        "_value": "false",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
                     {
                         "_key": "[sidenavPosition]",
-                        "_value": "'start'",
+                        "_value": "'end'",
                         "_type": "a",
                         "_attrDef": "p"
                     },
@@ -1135,7 +1135,7 @@
                     },
                     {
                         "_key": "autoFocus",
-                        "_value": "",
+                        "_value": "false",
                         "_type": "kv",
                         "_attrDef": "p"
                     },

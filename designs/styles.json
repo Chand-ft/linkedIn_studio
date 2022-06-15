@@ -6,6 +6,6 @@
         "whiteBox",
         "greyColor",
         "sidenav",
-        "margin-top53"
+        "mat-drawer-inner-container"
     ]
 }
